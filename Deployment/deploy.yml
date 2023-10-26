@@ -6,11 +6,12 @@
   tasks:
     - name: Pull image
       docker_image:
-        - name: gatsy1227/calculator:latest
-        - source: pull
+        name: gatsy1227/calculator:latest
+        source: pull
     - name: Start docker servicegit
       service:
         name: docker
         state: started
     - name: Running container
       shell: docker run -it -d --name Calculator gatsy1227/calculator
+
