@@ -31,7 +31,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);
-        System.out.println("Welcome to Calculator...");
+        System.out.println("Welcome to Calculator program...");
         logger.info("Start of Execution");
         while(true)
         {
