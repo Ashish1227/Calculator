@@ -82,7 +82,7 @@ public class Main {
                 logger.warn("Invalid Input");
             }
 
-            System.out.println("result =  " + res);
+            System.out.println("result = " + res);
         }
     }
 }
